@@ -1,0 +1,609 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009) (format=pdflatex 2010.4.20)  26 APR 2010 14:11
+entering extended mode
+ %&-line parsing enabled.
+**thesis.tex
+(./thesis.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, ancientgreek, ibycus, pinyin, coptic, esperanto, estonian, monogree
+k, greek, icelandic, indonesian, interlingua, irish, kurmanji, latin, romanian,
+ serbian, slovenian, turkish, ukenglish, uppersorbian, welsh, loaded.
+(/usr/local/texlive/2009/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2009/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(./jrl_thesis.sty) (./fancyheadings.sty
+\fancy@headwidth=\skip43
+\f@ncyO@elh=\skip44
+\f@ncyO@erh=\skip45
+\f@ncyO@olh=\skip46
+\f@ncyO@orh=\skip47
+\f@ncyO@elf=\skip48
+\f@ncyO@erf=\skip49
+\f@ncyO@olf=\skip50
+\f@ncyO@orf=\skip51
+) (./natbib.sty
+Package: natbib 2000/07/24 7.0a (PWD)
+\bibhang=\skip52
+\bibsep=\skip53
+LaTeX Info: Redefining \cite on input line 508.
+\c@NAT@ctr=\count88
+) (./setspace.sty
+Package: setspace 2000/12/01 6.7 Contributed and Supported LaTeX2e package
+
+Package: `setspace' 6.7 <2000/12/01>
+) (/usr/local/texlive/2009/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2009/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2009/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2009/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2009/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/local/texlive/2009/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2010/02/14 v0.04n Graphics/color for pdfTeX
+\Gread@gobject=\count89
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/local/texlive/2009/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count90
+\lst@gtempboxa=\box26
+\lst@token=\toks15
+\lst@length=\count91
+\lst@currlwidth=\dimen105
+\lst@column=\count92
+\lst@pos=\count93
+\lst@lostspace=\dimen106
+\lst@width=\dimen107
+\lst@newlines=\count94
+\lst@lineno=\count95
+\lst@maxwidth=\dimen108
+
+(/usr/local/texlive/2009/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+\c@lstnumber=\count96
+\lst@skipnumbers=\count97
+\lst@framebox=\box27
+)
+(/usr/local/texlive/2009/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2007/02/22 1.4 listings configuration
+))
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
+
+(/usr/local/texlive/2009/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip54
+\subfigcapskip=\skip55
+\subfigcaptopadj=\dimen109
+\subfigbottomskip=\skip56
+\subfigcapmargin=\dimen110
+\subfiglabelskip=\skip57
+\c@subfigure=\count98
+\c@lofdepth=\count99
+\c@subtable=\count100
+\c@lotdepth=\count101
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/local/texlive/2009/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip58
+\subfig@bottom=\skip59
+)
+(/usr/local/texlive/2009/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+(/usr/local/texlive/2009/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+)
+\@input{definitions.aux}
+\openout2 = `definitions.aux'.
+
+(./definitions.tex) (./thesis.aux (./abstr.aux) (./acknowledgements.aux)
+(./notation.aux) (./chap1.aux) (./litrev.aux) (./meth.aux) (./design.aux)
+(./results.aux) (./conc.aux) (./appendix.aux) (./vita.aux))
+\openout1 = `thesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count102
+\scratchdimen=\dimen111
+\scratchbox=\box28
+\nofMPsegments=\count103
+\nofMParguments=\count104
+\everyMPshowfont=\toks16
+\MPscratchCnt=\count105
+\MPscratchDim=\dimen112
+\MPnumerator=\count106
+\everyMPtoPDFconversion=\toks17
+)
+\c@lstlisting=\count107
+ [1
+
+
+
+{/usr/local/texlive/2009/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 21.
+
+(/usr/local/texlive/2009/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 21.
+ [1]
+\openout2 = `abstr.aux'.
+
+ (./abstr.tex) [2
+
+
+]
+\openout2 = `acknowledgements.aux'.
+
+ (./acknowledgements.tex) [3
+
+
+
+]
+\openout2 = `notation.aux'.
+
+ (./notation.tex
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 22.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 22.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 22.
+ [4
+
+
+
+]) [5] (./thesis.toc
+[6
+
+
+] [7])
+\tf@toc=\write3
+\openout3 = `thesis.toc'.
+
+ [8] (./thesis.lot)
+\tf@lot=\write4
+\openout4 = `thesis.lot'.
+
+ [9
+
+] (./thesis.lof [10
+
+])
+\tf@lof=\write5
+\openout5 = `thesis.lof'.
+
+ [11]
+\openout2 = `chap1.aux'.
+
+ (./chap1.tex
+Chapter 1.
+[1
+
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2] [3]) [4]
+\openout2 = `litrev.aux'.
+
+ (./litrev.tex
+Chapter 2.
+[5
+
+
+
+] <laser.png, id=61, 447.6725pt x 461.725pt>
+File: laser.png Graphic file (type png)
+ <use laser.png> [6] [7 <./laser.png>] <mcp_t.png, id=71, 1173.38374pt x 722.7p
+t>
+File: mcp_t.png Graphic file (type png)
+ <use mcp_t.png>
+Missing character: There is no Î in font cmr12!
+Missing character: There is no ¼ in font cmr12!
+Missing character: There is no Î in font cmr12!
+Missing character: There is no ¼ in font cmr12!
+ [8] [9 <./mcp_t.png (PNG copy)>] <mini.png, id=78, 1210.5225pt x 789.95125pt>
+File: mini.png Graphic file (type png)
+ <use mini.png>) [10] [11 <./mini.png (PNG copy)>]
+\openout2 = `meth.aux'.
+
+ (./meth.tex
+Chapter 3.
+[12
+
+
+
+] <spectra.png, id=88, 915.42pt x 755.82375pt>
+File: spectra.png Graphic file (type png)
+ <use spectra.png>
+Missing character: There is no Î in font cmr12!
+Missing character: There is no ¼ in font cmr12!
+Missing character: There is no Î in font cmr12!
+Missing character: There is no ¼ in font cmr12!
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 15.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 15.
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+[][]\OT1/cmr/m/n/10 Sergio Fan-ti-nis Group, "Near-infrared spec-troscopy for t
+he study of bi-o-log-i-
+ []
+
+
+Underfull \hbox (badness 7740) in paragraph at lines 15--15
+\OT1/cmr/m/n/10 cal tis-sue," De-part-ment of Biomed-i-cal En-gi-neer-ing, Tuft
+s Uni-ver-sity, re-trieved from
+ []
+
+<banana.jpg, id=89, 73.30853pt x 51.1938pt>
+File: banana.jpg Graphic file (type jpg)
+ <use banana.jpg> [13 <./spectra.png (PNG copy)>] [14 <./banana.jpg>] [15]
+Overfull \hbox (11.43927pt too wide) in paragraph at lines 76--77
+[]\OT1/cmr/m/n/12 giving us the change in con-cen-tra-tion be-tween two mea-sur
+e-ments for oxy-haemoglobin
+ []
+
+[16]) [17]
+\openout2 = `design.aux'.
+
+ (./design.tex
+Chapter 4.
+<design.png, id=114, 1035.87pt x 301.125pt>
+File: design.png Graphic file (type png)
+ <use design.png> [18
+
+
+
+] [19 <./design.png (PNG copy)>] <mcu.png, id=122, 565.1514pt x 470.4777pt>
+File: mcu.png Graphic file (type png)
+ <use mcu.png>
+[20] [21 <./mcu.png (PNG copy)>] [22]
+<prototype.jpg, id=132, 2280.52pt x 1710.39pt>
+File: prototype.jpg Graphic file (type jpg)
+ <use prototype.jpg> [23]
+[24 <./prototype.jpg>] [25] <led.png, id=143, 107.6823pt x 135.8676pt>
+File: led.png Graphic file (type png)
+
+<use led.png> [26] <sensor.png, id=147, 422.7795pt x 96.1191pt>
+File: sensor.png Graphic file (type png)
+
+<use sensor.png> [27 <./led.png> <./sensor.png (PNG copy)>]
+<sensorpcb.png, id=152, 118.041pt x 65.5248pt>
+File: sensorpcb.png Graphic file (type png)
+ <use sensorpcb.png> [28]
+<sensorproto.jpg, id=156, 1936.23375pt x 743.77875pt>
+File: sensorproto.jpg Graphic file (type jpg)
+ <use sensorproto.jpg>
+<sensorbend.jpg, id=157, 1099.10625pt x 939.51pt>
+File: sensorbend.jpg Graphic file (type jpg)
+ <use sensorbend.jpg>
+Overfull \hbox (3.91663pt too wide) in paragraph at lines 108--110
+ [][] 
+ []
+
+
+Overfull \hbox (3.91663pt too wide) in paragraph at lines 108--110
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 23.4899pt on input line 111.
+
+[29 <./sensorpcb.png (PNG copy)>] [30 <./sensorproto.jpg> <./sensorbend.jpg>]
+<csensorproto.jpg, id=165, 1502.61375pt x 788.9475pt>
+File: csensorproto.jpg Graphic file (type jpg)
+ <use csensorproto.jpg>
+<csensorbend.jpg, id=166, 1318.9275pt x 737.75626pt>
+File: csensorbend.jpg Graphic file (type jpg)
+ <use csensorbend.jpg>
+Overfull \hbox (3.91663pt too wide) in paragraph at lines 119--121
+ [][] 
+ []
+
+
+Overfull \hbox (3.91663pt too wide) in paragraph at lines 119--121
+ [] 
+ []
+
+[31] [32 <./csensorproto.jpg> <./csensorbend.jpg>]
+<data.png, id=174, 634.62094pt x 189.70876pt>
+File: data.png Graphic file (type png)
+ <use data.png> [33 <./data.png>]
+[34] <fftHbO2_2.png, id=182, 578.16pt x 433.62pt>
+File: fftHbO2_2.png Graphic file (type png)
+ <use fftHbO2_2.png>
+<fftHbO2_2f.png, id=183, 578.16pt x 433.62pt>
+File: fftHbO2_2f.png Graphic file (type png)
+ <use fftHbO2_2f.png> [35]
+[36 <./fftHbO2_2.png (PNG copy)> <./fftHbO2_2f.png (PNG copy)>] [37] [38])
+[39]
+\openout2 = `results.aux'.
+
+ (./results.tex
+Chapter 5.
+<motorsens.png, id=202, 222.8325pt x 274.02374pt>
+File: motorsens.png Graphic file (type png)
+ <use motorsens.png>
+<LeftMotorCortex-RightHandMovement/sensor1.png, id=203, 578.16pt x 433.62pt>
+File: LeftMotorCortex-RightHandMovement/sensor1.png Graphic file (type png)
+
+<use LeftMotorCortex-RightHandMovement/sensor1.png>
+<LeftMotorCortex-RightHandMovement/sensor2.png, id=204, 578.16pt x 433.62pt>
+File: LeftMotorCortex-RightHandMovement/sensor2.png Graphic file (type png)
+
+<use LeftMotorCortex-RightHandMovement/sensor2.png> [40
+
+
+
+] [41 <./motorsens.png>] [42 <./LeftMotorCortex-RightHandMovement/sensor1.png (
+PNG copy)> <./LeftMotorCortex-RightHandMovement/sensor2.png (PNG copy)>]
+<LeftMotorCortex-NoMovement/sensor1.png, id=215, 578.16pt x 433.62pt>
+File: LeftMotorCortex-NoMovement/sensor1.png Graphic file (type png)
+
+<use LeftMotorCortex-NoMovement/sensor1.png>
+<LeftMotorCortex-NoMovement/sensor2.png, id=216, 578.16pt x 433.62pt>
+File: LeftMotorCortex-NoMovement/sensor2.png Graphic file (type png)
+
+<use LeftMotorCortex-NoMovement/sensor2.png> [43] [44 <./LeftMotorCortex-NoMove
+ment/sensor1.png (PNG copy)> <./LeftMotorCortex-NoMovement/sensor2.png (PNG cop
+y)>]
+<LeftMotorCortex-RightHandMovement-2/sensor1.png, id=224, 578.16pt x 433.62pt>
+File: LeftMotorCortex-RightHandMovement-2/sensor1.png Graphic file (type png)
+
+<use LeftMotorCortex-RightHandMovement-2/sensor1.png>
+<LeftMotorCortex-RightHandMovement-2/sensor2.png, id=225, 578.16pt x 433.62pt>
+File: LeftMotorCortex-RightHandMovement-2/sensor2.png Graphic file (type png)
+
+<use LeftMotorCortex-RightHandMovement-2/sensor2.png>
+<motorsens-left.png, id=226, 222.8325pt x 274.02374pt>
+File: motorsens-left.png Graphic file (type png)
+
+<use motorsens-left.png>
+<RightMotorCortex-LeftHandMovement/sensor1.png, id=227, 578.16pt x 433.62pt>
+File: RightMotorCortex-LeftHandMovement/sensor1.png Graphic file (type png)
+
+<use RightMotorCortex-LeftHandMovement/sensor1.png>
+<RightMotorCortex-LeftHandMovement/sensor2.png, id=228, 578.16pt x 433.62pt>
+File: RightMotorCortex-LeftHandMovement/sensor2.png Graphic file (type png)
+
+<use RightMotorCortex-LeftHandMovement/sensor2.png> [45] [46 <./LeftMotorCortex
+-RightHandMovement-2/sensor1.png (PNG copy)> <./LeftMotorCortex-RightHandMoveme
+nt-2/sensor2.png (PNG copy)>] <sensorfront.png, id=235, 138.5175pt x 160.6pt>
+File: sensorfront.png Graphic file (type png)
+
+<use sensorfront.png>
+<FrontalLobe-Thinking/sensor1.png, id=236, 578.16pt x 433.62pt>
+File: FrontalLobe-Thinking/sensor1.png Graphic file (type png)
+
+<use FrontalLobe-Thinking/sensor1.png>
+<FrontalLobe-Thinking/sensor2.png, id=237, 578.16pt x 433.62pt>
+File: FrontalLobe-Thinking/sensor2.png Graphic file (type png)
+
+<use FrontalLobe-Thinking/sensor2.png>
+<FrontalLobe-Relaxed/sensor1.png, id=238, 578.16pt x 433.62pt>
+File: FrontalLobe-Relaxed/sensor1.png Graphic file (type png)
+
+<use FrontalLobe-Relaxed/sensor1.png>
+<FrontalLobe-Relaxed/sensor2.png, id=239, 578.16pt x 433.62pt>
+File: FrontalLobe-Relaxed/sensor2.png Graphic file (type png)
+
+<use FrontalLobe-Relaxed/sensor2.png>
+<sensorback.png, id=240, 141.52875pt x 177.66376pt>
+File: sensorback.png Graphic file (type png)
+ <use sensorback.png>
+<VisialCortex-EyesOpen/sensor1.png, id=241, 578.16pt x 433.62pt>
+File: VisialCortex-EyesOpen/sensor1.png Graphic file (type png)
+
+<use VisialCortex-EyesOpen/sensor1.png>
+<VisialCortex-EyesOpen/sensor2.png, id=242, 578.16pt x 433.62pt>
+File: VisialCortex-EyesOpen/sensor2.png Graphic file (type png)
+
+<use VisialCortex-EyesOpen/sensor2.png>
+<VisialCortex-EyesClosed/sensor1.png, id=243, 578.16pt x 433.62pt>
+File: VisialCortex-EyesClosed/sensor1.png Graphic file (type png)
+
+<use VisialCortex-EyesClosed/sensor1.png>
+<VisialCortex-EyesClosed/sensor2.png, id=244, 578.16pt x 433.62pt>
+File: VisialCortex-EyesClosed/sensor2.png Graphic file (type png)
+
+<use VisialCortex-EyesClosed/sensor2.png> [47 <./motorsens-left.png>] [48 <./Ri
+ghtMotorCortex-LeftHandMovement/sensor1.png (PNG copy)> <./RightMotorCortex-Lef
+tHandMovement/sensor2.png (PNG copy)>] [49 <./sensorfront.png>] [50 <./FrontalL
+obe-Thinking/sensor1.png (PNG copy)> <./FrontalLobe-Thinking/sensor2.png (PNG c
+opy)>] [51 <./FrontalLobe-Relaxed/sensor1.png (PNG copy)> <./FrontalLobe-Relaxe
+d/sensor2.png (PNG copy)>]
+<BicepFexion/sensor1.png, id=263, 578.16pt x 433.62pt>
+File: BicepFexion/sensor1.png Graphic file (type png)
+
+<use BicepFexion/sensor1.png>
+<BicepFexion/sensor2.png, id=264, 578.16pt x 433.62pt>
+File: BicepFexion/sensor2.png Graphic file (type png)
+
+<use BicepFexion/sensor2.png>
+<BicepFexionWeight/sensor1.png, id=265, 578.16pt x 433.62pt>
+File: BicepFexionWeight/sensor1.png Graphic file (type png)
+
+<use BicepFexionWeight/sensor1.png>
+<BicepFexionWeight/sensor2.png, id=266, 578.16pt x 433.62pt>
+File: BicepFexionWeight/sensor2.png Graphic file (type png)
+
+<use BicepFexionWeight/sensor2.png>
+
+LaTeX Warning: Float too large for page by 6.89812pt on input line 133.
+
+[52 <./sensorback.png>] [53 <./VisialCortex-EyesOpen/sensor1.png (PNG copy)> <.
+/VisialCortex-EyesOpen/sensor2.png (PNG copy)>] [54 <./VisialCortex-EyesClosed/
+sensor1.png (PNG copy)> <./VisialCortex-EyesClosed/sensor2.png (PNG copy)>]
+[55 <./BicepFexion/sensor1.png (PNG copy)> <./BicepFexion/sensor2.png (PNG copy
+)>] [56 <./BicepFexionWeight/sensor1.png (PNG copy)> <./BicepFexionWeight/senso
+r2.png (PNG copy)>]) [57]
+\openout2 = `conc.aux'.
+
+ (./conc.tex
+Chapter 6.
+[58
+
+
+
+] [59] [60]
+Chapter 7.
+) [61
+
+] [62]
+\openout2 = `appendix.aux'.
+
+ (./appendix.tex
+Appendix A.
+[63
+
+
+
+] [64]
+Appendix B.
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./cdia-1.pdf): PDF inclusion: found PDF
+ version <1.5>, but at most version <1.4> allowed
+<cdia-1.pdf, id=309, 421.10078pt x 597.50786pt>
+File: cdia-1.pdf Graphic file (type pdf)
+ <use cdia-1.pdf>
+
+LaTeX Warning: Float too large for page by 18.0529pt on input line 34.
+
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./cdia-2.pdf): PDF inclusion: found PDF
+ version <1.5>, but at most version <1.4> allowed
+<cdia-2.pdf, id=311, 421.10078pt x 597.50786pt>
+File: cdia-2.pdf Graphic file (type pdf)
+ <use cdia-2.pdf>
+
+LaTeX Warning: Float too large for page by 12.11896pt on input line 39.
+
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./cdia-3.pdf): PDF inclusion: found PDF
+ version <1.5>, but at most version <1.4> allowed
+<cdia-3.pdf, id=313, 421.10078pt x 597.50786pt>
+File: cdia-3.pdf Graphic file (type pdf)
+ <use cdia-3.pdf>
+
+LaTeX Warning: Float too large for page by 12.11896pt on input line 44.
+
+<cdiatimer.png, id=315, 1092.55235pt x 990.52412pt>
+File: cdiatimer.png Graphic file (type png)
+ <use cdiatimer.png>
+[65
+
+] [66 <./cdia-1.pdf>] [67 <./cdia-2.pdf>] [68 <./cdia-3.pdf>] [69 <./cdiatimer.
+png (PNG copy)>]
+Appendix C.
+(/usr/local/texlive/2009/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+(./filter.m [70
+
+])) [71] (./thesis.bbl
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¨ in font cmr12!
+
+Underfull \hbox (badness 2111) in paragraph at lines 30--42
+\OT1/cmr/m/n/12 NIH HH-S/U-nited States; GR: T32-CA09502/CA/NCI NIH HH-S/U-nite
+d
+ []
+
+[72
+
+
+] [73]) [74]
+\openout2 = `vita.aux'.
+
+ (./vita.tex) [75
+
+
+] (./thesis.aux (./abstr.aux)
+(./acknowledgements.aux) (./notation.aux) (./chap1.aux) (./litrev.aux)
+(./meth.aux) (./design.aux) (./results.aux) (./conc.aux) (./appendix.aux)
+(./vita.aux)) ) 
+Here is how much of TeX's memory you used:
+ 3764 strings out of 494552
+ 51823 string characters out of 3169630
+ 203462 words of memory out of 3000000
+ 6851 multiletter control sequences out of 15000+200000
+ 9806 words of font info for 34 fonts, out of 3000000 for 9000
+ 342 hyphenation exceptions out of 8191
+ 29i,11n,49p,1265b,2040s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmbx12.pfb></usr/local/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmbxti10.pfb></usr/local/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmcsc10.pfb></usr/local/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmex10.pfb></usr/local/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmmi12.pfb></usr/local/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi6.pfb></usr/local/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi8.pfb></usr/local/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+10.pfb></usr/local/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12
+.pfb></usr/local/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.p
+fb></usr/local/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb>
+</usr/local/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></u
+sr/local/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/
+local/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/l
+ocal/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/loc
+al/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on thesis.pdf (87 pages, 2788871 bytes).
+PDF statistics:
+ 428 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 231 words of extra memory for PDF output out of 10000 (max. 10000000)
+

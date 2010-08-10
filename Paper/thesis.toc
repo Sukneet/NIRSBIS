@@ -1,0 +1,36 @@
+\contentsline {chapter}{Abstract}{ii}
+\contentsline {chapter}{Acknowledgements}{iii}
+\contentsline {chapter}{Notation and Abbreviations}{iv}
+\contentsline {chapter}{\numberline {1}Introduction}{1}
+\contentsline {section}{\numberline {1.1}Background}{1}
+\contentsline {section}{\numberline {1.2}Definition}{2}
+\contentsline {chapter}{\numberline {2}Literature Review}{5}
+\contentsline {section}{\numberline {2.1}Laser Based System}{6}
+\contentsline {section}{\numberline {2.2}The MCP II}{6}
+\contentsline {section}{\numberline {2.3}Wireless Miniaturized NIRS System}{10}
+\contentsline {chapter}{\numberline {3}Theory}{12}
+\contentsline {section}{\numberline {3.1}The Basics}{12}
+\contentsline {section}{\numberline {3.2}Modified Beer-Lambert Law}{14}
+\contentsline {chapter}{\numberline {4}Design Procedures}{18}
+\contentsline {section}{\numberline {4.1}The Microcontroller}{19}
+\contentsline {section}{\numberline {4.2}The Sensor}{25}
+\contentsline {subsection}{\numberline {4.2.1}Building the sensor}{28}
+\contentsline {section}{\numberline {4.3}Software}{31}
+\contentsline {subsection}{\numberline {4.3.1}Data Acquisition}{31}
+\contentsline {subsection}{\numberline {4.3.2}Computer Software}{33}
+\contentsline {section}{\numberline {4.4}Cost}{35}
+\contentsline {section}{\numberline {4.5}Design Challenges}{35}
+\contentsline {chapter}{\numberline {5}Results and Discussion}{40}
+\contentsline {section}{\numberline {5.1}Motor Movement}{40}
+\contentsline {section}{\numberline {5.2}Thinking Intensely}{45}
+\contentsline {section}{\numberline {5.3}Visual stimulation}{47}
+\contentsline {section}{\numberline {5.4}Muscle Contractions}{52}
+\contentsline {section}{\numberline {5.5}Remarks}{57}
+\contentsline {chapter}{\numberline {6}Recommendations}{58}
+\contentsline {chapter}{\numberline {7}Conclusion}{61}
+\contentsline {chapter}{\numberline {A}Calculations}{63}
+\contentsline {section}{\numberline {A.1}Minimum UART speed calculation}{63}
+\contentsline {section}{\numberline {A.2}DPF calculation}{63}
+\contentsline {chapter}{\numberline {B}Flow Charts}{65}
+\contentsline {section}{\numberline {B.1}Microcontroller code flow chart}{65}
+\contentsline {chapter}{\numberline {C}Matlab Source Code}{70}

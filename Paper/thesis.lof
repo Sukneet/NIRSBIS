@@ -1,0 +1,67 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Laser NIRS System}}{7}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces MCP II Measuring Motor Movement}}{9}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Wireless Miniaturized NIRS System Measuring Motor Movement}}{11}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Propagation of photons}}{13}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Propagation of photons}}{14}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces A very basic overview of the system.}}{19}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Schematic of the system}}{21}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces The Prototype}}{24}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces LED control diagram}}{27}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Sensor schematic}}{27}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Sensor pcb layout}}{29}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Sensor prototype PCB}}{30}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Sensor after etching}}}{30}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Sensor showing flexibility}}}{30}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Finalized Sensor Prototype}}{32}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Complete Sensor Prototype}}}{32}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Sensor Prototype showing flexibility}}}{32}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Time multiplexed acquisition}}{33}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces FFT of data}}{36}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {FFT of data before filtering}}}{36}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {FFT of data after filtering}}}{36}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Placement of Sensor to Measure Right Hand Movement}}{41}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Left Motor Cortex Measurements with Motor Movement}}{42}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Sensor 1}}}{42}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Sensor 2}}}{42}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Left Motor Cortex Measurements with No Motor Movement}}{44}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Sensor 1}}}{44}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Sensor 2}}}{44}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Left Motor Cortex Measurements with Motor Movement, Test 2}}{46}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Sensor 1}}}{46}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Sensor 2}}}{46}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Placement of Sensor to Measure Left Hand Movement}}{47}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Left Motor Cortex Measurements with Motor Movement}}{48}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Sensor 1}}}{48}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Sensor 2}}}{48}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Placement of Sensor to measure Frontal Lobe}}{49}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Frontal Lobe Measurements while Thinking Intensely}}{50}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Sensor 1}}}{50}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Sensor 2}}}{50}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Frontal Lobe Measurements while Relaxed}}{51}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Sensor 1}}}{51}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Sensor 2}}}{51}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Placement of Sensor to Measure Visual Cortex}}{52}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Visual Cortex Measurements while Moving Eyes between focused objects}}{53}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Sensor 1}}}{53}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Sensor 2}}}{53}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Frontal Lobe Measurements while Relaxed}}{54}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Sensor 1}}}{54}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Sensor 2}}}{54}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Bicep Measurements with Continuous Flexion and Extension}}{55}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Sensor 1}}}{55}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Sensor 2}}}{55}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Bicep Measurements with Continuous Fexion and Extension with a Weight}}{56}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Sensor 1}}}{56}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Sensor 2}}}{56}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Microcontroller code flow chart}}{66}
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Timer\_A interrupt flow chart}}{69}
+\addvspace {10\p@ }

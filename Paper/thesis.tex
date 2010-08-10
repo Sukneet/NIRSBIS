@@ -1,0 +1,71 @@
+\documentclass[12pt]{report}
+\usepackage{jrl_thesis}
+\usepackage{fancyheadings}
+\usepackage{natbib}
+\usepackage{setspace}               % this package defines the spacing of your thesis and should be included
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{subfigure}
+%\bibliographystyle{natbib}
+\bibliographystyle{ieeetr}
+\bibpunct{[}{]}{,}{n}{,}{,}
+\lstset{language=C}
+
+\include{definitions}               % your information goes here
+
+ % \parskip 12pt
+
+% add all other packages that you need to use here.
+% ********************************
+\begin{document}
+\beforepreface                      % command to create the parts of your thesis that come before the preface like title and etc.
+
+  \include{abstr}
+  \include{acknowledgements}
+  \include{notation}
+
+\afterpreface                      % command to create the parts of your thesis that come after your preface like contents and etc.
+
+  \include{chap1}                  % the first chapter
+        \setcounter{figure}{0}
+        \setcounter{equation}{0}
+        \setcounter{table}{0}
+
+  % add other chapters go here. don't forget to reset the counters each time!
+
+  \include{litrev}                  % the first chapter
+        \setcounter{figure}{0}
+        \setcounter{equation}{0}
+        \setcounter{table}{0}
+
+  \include{meth}                  % the first chapter
+        \setcounter{figure}{0}
+        \setcounter{equation}{0}
+        \setcounter{table}{0}
+
+  \include{design}                  % the first chapter
+        \setcounter{figure}{0}
+        \setcounter{equation}{0}
+        \setcounter{table}{0}
+
+  \include{results}
+	\setcounter{figure}{0}
+        \setcounter{equation}{0}
+        \setcounter{table}{0}
+
+  \include{conc}                  % the first chapter
+        \setcounter{figure}{0}
+        \setcounter{equation}{0}
+        \setcounter{table}{0}
+
+ \include{appendix}               % you can include your appendix if you have any!\
+
+%\bibliographystyle{ieeetr}
+\bibliography{references}        % your list of references
+
+\include{vita}
+
+\label{NumDocumentPages}
+
+\end{document}
+% ********************************

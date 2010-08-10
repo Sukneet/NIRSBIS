@@ -1,0 +1,183 @@
+\makeatletter
+\oddsidemargin 0.5in \evensidemargin 0.5in
+\marginparwidth 40pt \marginparsep 10pt
+\topmargin 0pt \headsep .5in
+\textheight 8.1in \textwidth 6in
+\brokenpenalty=10000
+\renewcommand{\baselinestretch}{1.5}
+% 1.5 is double space
+
+\def\cl@chapter{\@elt{section}\@elt{footnote}}
+%\def\thefigure{\@arabic\c@figure}
+%\def\thetable{\@arabic\c@table}
+%\def\theequation{\arabic{equation}}
+
+\def\@xfloat#1[#2]{\ifhmode \@bsphack\@floatpenalty -\@Mii\else
+   \@floatpenalty-\@Miii\fi\def\@captype{#1}\ifinner
+      \@parmoderr\@floatpenalty\z@
+    \else\@next\@currbox\@freelist{\@tempcnta\csname ftype@#1\endcsname
+       \multiply\@tempcnta\@xxxii\advance\@tempcnta\sixt@@n
+       \@tfor \@tempa :=#2\do
+                        {\if\@tempa h\advance\@tempcnta \@ne\fi
+                         \if\@tempa t\advance\@tempcnta \tw@\fi
+                         \if\@tempa b\advance\@tempcnta 4\relax\fi
+                         \if\@tempa p\advance\@tempcnta 8\relax\fi
+         }\global\count\@currbox\@tempcnta}\@fltovf\fi
+    \global\setbox\@currbox\vbox\bgroup
+    \def\baselinestretch{1}\@normalsize
+    \boxmaxdepth\z@
+    \hsize\columnwidth \@parboxrestore}
+\long\def\@footnotetext#1{\insert\footins{\def\baselinestretch{1}\footnotesize
+    \interlinepenalty\interfootnotelinepenalty
+    \splittopskip\footnotesep
+    \splitmaxdepth \dp\strutbox \floatingpenalty \@MM
+    \hsize\columnwidth \@parboxrestore
+   \edef\@currentlabel{\csname p@footnote\endcsname\@thefnmark}\@makefntext
+    {\rule{\z@}{\footnotesep}\ignorespaces
+      #1\strut}}}
+
+\def\dept#1{\gdef\@dept{#1}}
+\def\degree#1{\gdef\@degree{#1}}
+\def\degreename#1{\gdef\@degreename{#1}}
+\def\halftitle#1{\gdef\@halftitle{#1}}
+\def\prevdegreeone#1{\gdef\@prevdegreeone{#1}}
+\def\prevdegreetwo#1{\gdef\@prevdegreetwo{#1}}
+\def\principaladviser#1{\gdef\@principaladviser{#1}}
+\def\advis@r{Adviser}
+\def\principaladvisor#1{\gdef\@principaladviser{#1}\gdef\advis@r{Advisor}}
+\def\firstreader#1{\gdef\@firstreader{#1}}
+\def\secondreader#1{\gdef\@secondreader{#1}}
+\def\submitdate#1{\gdef\@submitdate{#1}}
+\def\copyrightyear#1{\gdef\@copyrightyear{#1}} % \author, \title in report
+\def\@title{}\def\@author{}\def\@dept{Electrical \& Computer Engineering}
+\def\@halftitle{\@title}
+\def\@degree{Bachelor of Engineering}
+\def\@degreename{\@dept}
+\def\@principaladviser{}\def\@firstreader{}\def\@secondreader{}
+\def\@submitdate{\ifcase\the\month\or
+  January\or February\or March\or April\or May\or June\or
+  July\or August\or September\or October\or November\or December\fi
+  \space \number\the\year}
+\ifnum\month=12
+    \@tempcnta=\year \advance\@tempcnta by 1
+    \edef\@copyrightyear{\number\the\@tempcnta}
+\else
+    \def\@copyrightyear{\number\the\year}
+\fi
+\newif\ifcopyright \newif\iffigurespage \newif\iftablespage \newif\ifsignature
+\copyrighttrue \figurespagetrue \tablespagetrue \signaturefalse
+
+
+\def\halftitlep{
+    \thispagestyle{empty}
+   \null\vskip1in
+    \begin{center}
+       \LARGE \uppercase\expandafter{\@halftitle}
+    \end{center}
+      \vskip.1in
+	\begin{center}
+                \rm\uppercase{By}\\
+                \uppercase\expandafter{\@author}\\
+        \end{center}
+%\vskip.5in
+    \vfill
+    \begin{center}
+      \sc Electrical and Biomedical Engineering Design Project (4BI6)\\
+    Department of Electrical and Computer Engineering\\
+                   McMaster University\\
+                Hamilton, Ontario, Canada
+    \end{center}
+    \newpage\setcounter{page}{1}}
+
+\def\titlep{
+    \thispagestyle{empty}
+    \null\vskip.2in
+    \begin{center}
+        \large\uppercase\expandafter{\@title}
+    \end{center}
+\vfill
+        \begin{center}
+                \rm\uppercase{By}\\
+                \uppercase\expandafter{\@author}\\
+         \end{center}\vskip.5in
+    \vfill
+	
+    \begin{center}
+      \sc Electrical and Biomedical Engineering\\
+    Faculty Advisor: Prof. Doyle
+    \end{center} \vskip.3in
+    \vfill
+
+    \begin{center}
+      \sc Electrical and Biomedical Engineering Project Report\\
+   	submitted in partial fulfillment of the degree of\\
+        Bachelor of Engineering
+    \end{center} \vskip.3in
+    \vfill
+
+    \begin{center}
+      \sc McMaster University\\
+        Hamilton, Ontario, Canada\\
+        April 23, 2010
+    \end{center} \vskip.4in
+    \vfill
+
+  \begin{center}
+   \normalsize
+   Copyright\ \copyright\ \@submitdate \ by \@author
+    \end{center} 
+    %\vskip.1in
+    \newpage}
+
+\def\copyrightpage{%
+    \begin{center}
+        \Large\copyright\ Copyright April \@copyrightyear by  \@author\\
+    \end{center}
+    \vfill\vskip1in\newpage} \normalsize
+
+\def\beforepreface{
+\doublespacing
+    \pagenumbering{roman}
+    \pagestyle{plain}
+    \halftitlep
+    \titlep
+%    \ifcopyright\copyrightpage\fi
+    }
+
+\def\prefacesection#1{
+    \chapter*{#1}
+    \addcontentsline{toc}{chapter}{#1}}
+
+\def\afterpreface{\newpage
+\doublespacing
+    \tableofcontents
+    \iftablespage
+        {\newpage
+        \addvspace{10pt}
+        \let\saveaddvspace=\addvspace
+        \def\addvspace##1{}
+       \listoftables
+        \let\addvspace=\saveaddvspace}
+    \fi
+    \iffigurespage
+        {\newpage
+        \addvspace{10pt}
+        \let\saveaddvspace=\addvspace
+        \def\addvspace##1{}
+        \listoffigures
+        \let\addvspace=\saveaddvspace}
+    \fi
+    \label{NumPrefacePages}
+    \newpage
+    \pagenumbering{arabic}
+    \doublespacing
+    \pagestyle{fancy}
+
+\lhead[{\leftmark}]   {{\leftmark}}
+\chead[{}]  {{}} \rhead[{}]
+{{}} \lfoot[{}] {{}}
+\cfoot[{\thepage}]  {{\thepage}} \rfoot[ {}]{{}} }
+
+% Start with pagestyle{headings} in case front matter isn't processed
+\pagestyle{headings}
+\makeatother
